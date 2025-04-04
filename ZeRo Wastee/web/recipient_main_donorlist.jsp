@@ -1,10 +1,4 @@
-<%-- 
-    Document   : recipient_main_donorlist
-    Created on : 28-Mar-2025, 6:37:49 pm
-    Author     : Manikandan
---%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8" import="java.sql.*;" %>
 <!DOCTYPE html>
 <html>
     <head>
