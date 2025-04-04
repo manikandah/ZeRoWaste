@@ -179,7 +179,7 @@
     <div class="bubbles">
         <span></span><span></span><span></span><span></span><span></span>
     </div>
-     <div class="zero-waste">Zero Waste - Food Donation Portal <br><p> If everyone shares a little, no one will be poor</p></div>
+     <div class="zero-waste">Zero Waste - Food Donation Portal <br><p> If everyone shares a little, no one will be poor</p></div>
                <div class="login-container">
        
         <h1>Recipient Login</h1>
