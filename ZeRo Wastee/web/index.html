@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ZeRo Waste Portal</title>
+        <link rel="short icon" href="logo2.png" type="image/x-icon">
+        <style>
+
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image: url('./picture2.jpg');
+                background-size: auto;
+                background-attachment: fixed;
+                color: #fff;
+                text-align: center;
+            }
+
+
+            #font {
+                font-size: 7rem;
+                color: #fff;
+                font-weight: bold;
+                text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                margin-bottom: 77px;
+            }
+
+            .receiver {
+                text-decoration: none;
+                width: 200px;
+                background: linear-gradient(135deg, #ff5722, #ff9800);
+                color: white;
+                border-radius: 30px;
+                display: inline-block;
+                margin: 15px 0;
+                margin-right: 5%;
+                margin-left: 5%;
+                padding: 15px;
+                font-size: 1.2rem;
+                font-weight: bold;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+
+            }
+
+            .receiver:hover {
+                background-color: #d35400;
+                transform: translateY(-5px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            }
+
+            .receiver:active {
+                transform: translateY(2px);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            }
+
+            .receiver.donor {
+                background-color: #2ecc71;
+            }
+
+            .receiver.donor:hover {
+                background-color: #27ae60;
+            }
+
+            @media screen and (max-width: 768px) {
+                #font {
+                    font-size: 2rem;
+                    margin-bottom: 20px;
+                }
+
+                .receiver {
+                    width: 180px;
+                    font-size: 1rem;
+                    caret-color: transparent;
+                    user-select: none;
+                }
+            }
+            footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                padding: 10px 0;
+                font-size: 1rem;
+                color: #ff9800;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div>
+            <h1 id="font">Welcome To ZeRo Waste</h1>
+
+            <a href="fooddonor.jsp" class="receiver donor">Food Donor</a>
+            <a href="foodrecipient.jsp" class="receiver">Food Recipient</a>
+        </div>
+
+
+    </body>
+
+</html>
