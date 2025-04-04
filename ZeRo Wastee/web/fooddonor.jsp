@@ -201,7 +201,7 @@
         </style>
     </head>
     <body>
-        <div class="zero-waste">Zero Waste - Food Donation Portal <br><p> If everyone shares a little, no one will be poor</p></div>
+        <div class="zero-waste">Zero Waste - Food Donation Portal <br><p> If everyone shares a little, no one will be poor</p></div>
                <div class="login-container">
             <h1> Donor Login</h1>
             <form action="donorservleturl" method="post">
