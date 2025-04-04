@@ -1,10 +1,4 @@
-<%-- 
-    Document   : donor_forgot_password
-    Created on : 01-Apr-2025, 6:59:56 pm
-    Author     : Manikandan
---%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
